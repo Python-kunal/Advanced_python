@@ -77,3 +77,13 @@ class SportsCar(Car):
 
 my_car = SportsCar()
 my_car.activate_turbo()
+
+
+#next question:--
+
+class Shape:
+    def area(self):
+        print("Calculating area...")
+
+class Circle(Shape):
+    def 
