@@ -69,3 +69,22 @@ class ReverseText:
 reverse_text = ReverseText("Python")
 for char in reverse_text:
     print(char)
+
+print("---program finished---")
+
+
+#next question:--
+
+import random
+class InfiniteDice:
+    def __init__(self):
+        pass
+    def __iter__(self):
+        return self
+    def __next__(self):
+        return random.randint(1,6)
+
+dice = InfiniteDice()
+for _ in range(10):
+    print(next(dice))
+
